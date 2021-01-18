@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="30dp"
+    android:layout_height="39dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/item_img"
+        android:layout_width="30dp"
+        android:layout_height="24dp"
+        android:src="@drawable/home_icon_page_n" />
+
+    <TextView
+        android:id="@+id/item_tv"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="主页"
+        android:textColor="#ffd1d1d1"
+        android:textSize="10sp" />
+</LinearLayout>
